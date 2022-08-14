@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body {
+    background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+    font-family: "poppins";
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+/************************************header-area start***************************************/
+.header-area {
+    margin-top: 30px;
+}
+.michael {
+    width: 30%;
+    float: left;
+}
+.michael a {
+    background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+    color: #FFFFFF;
+    padding: 3px 8px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+}
+.michael a span {
+    border-bottom: 2px solid transparent;
+}
+.michael a span:hover {
+    border-bottom: 2px solid rgb(13, 153, 255);
+}
+span {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 13px;
+    border-bottom: 1px solid transparent;
+}
+span:hover {
+    border-bottom: 1px solid rgb(13, 153, 255);
+}
+
+.menu {
+    width: 58%;
+    float: left;
+    overflow: hidden;
+}
+.menu ul {
+    margin: 0px;
+    list-style: none;
+}
+.menu ul li {
+    float: left;
+    margin-right: 35px;
+    overflow: hidden;
+}
+.menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 14px;
+    transition: 1s;
+}
+.menu ul li a:hover {
+    border-bottom: 1px solid rgb(13, 153, 255);
+    color: blue;
+    transform: scale(1.6);
+}
+
+.contact {
+    width: 12%;
+    overflow: hidden;
+}
+.contact a {
+    font-family: "poppins";
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    
+}
+.contact a:hover {
+    background: linear-gradient(214.02deg, #bb7e32 92.95%, #e25959 6.04%);
+}
+/************************************header-area complete***************************************/
+/***************************************talk-area start****************************************/
+.talk-area {
+    margin-top: 40px;
+    padding: 30px;
+    overflow: hidden;
+}
+.talk {
+    overflow: hidden;
+    background-image: url(image/header-\ bc.png);
+    background-repeat: no-repeat;
+    background-size: 35% 100%;
+    background-position: 78% 30px;
+    height: 500px;
+    position: relative;
+}
+.trans-area {
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    letter-spacing: 22px;
+    color: rgb(76, 80, 108);
+}
+.text-area h1 {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 70px;
+    letter-spacing: 3px;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.text-area p {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    font-weight: 500;
+    font-size: 14px;
+}
+.text-area a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(217, 121, 86);
+    font-weight: 500;
+    font-size: 11px;
+}
+/***************************************talk-area complete****************************************/
+/****************************************link-area start*****************************************/
+
+.link-area ul {
+    margin-left: 20px;
+    padding: 60px;
+    list-style: none;
+}
+.link-area ul li {
+    display: inline;
+    margin-right: 120px;
+    overflow: hidden;
+}
+.link-area ul li a img {
+    width: 100px;
+    transition: 1s;
+}
+.link-area ul li a img:hover {
+    transform: scale(1.4);
+}
+/***************************************link-area complete*****************************************/
+/******************************************cv-area start******************************************/
+
+.cv-area {
+    padding: 60px;
+    margin-top: 10px;
+}
+
+.image {
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+.text {
+    width: 50%;
+    overflow: hidden;
+}
+.text .right {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.image a img {
+    width: 70%;
+    margin-left: 40px;
+}
+.text .right h2 {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.text .right p {
+    color: #FFFFFF;
+    
+    line-height: 2em;
+    font-weight: normal;
+    font-size: 14px;
+}
+.text .right a {
+    font-family: "poppins";
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.text .right a:hover {
+    background: linear-gradient(214.02deg, #bb7e32 92.95%, #e25959 6.04%);
+}
+/******************************************cv-area complete******************************************/
+/*****************************************services-area start***************************************/
+.services-area {
+    overflow: hidden;
+}
+.services-area h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-right: 124px;
+}
+.work-columns .col-1-3 {
+    background-image: url(image/Rectangle\ 38.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+	width: 30%;
+	float: left;
+    overflow: hidden;
+    height: 250px;
+}
+.work-columns .col-1-3 .web {
+    text-align: center;
+}
+.web a img{
+    margin-top: 35px;
+    width: 35px;
+    transition: 1s;
+}
+.work-columns .col-1-3 .web h3 {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 21px;
+    line-height: 22px;
+    font-family: "poppins";
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+.web .mark img{
+    width: 30px;
+    margin-top: 30px;
+}
+.work-columns .col-1-3 .web p {
+    color: rgb(246, 194, 172);
+    line-height: 1.8em;
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 14px;
+}
+.web a img:hover {
+    transform: scale(1.6);
+}
+/*****************************************services-area complete***************************************/
+/******************************************portfolio-area start***************************************/
+.portfolio {
+    margin-top: 100px;
+    overflow: hidden;
+}
+.portfolio h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 10px;
+}
+.portfolio p {
+    color: rgb(151, 147, 159);
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-size: 14px;
+}
+/*****************************************portfolio-area complete***************************************/
+/*******************************************portfolio-area start***************************************/
+
+.pic-area {
+    padding: 20px;
+    overflow: hidden;
+}
+.pic-area .col-1-3 {
+    width: 31%;
+	float: left;
+    overflow: hidden;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.pic-area .col-1-3 a img {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 22px;
+    transition: 1s;
+}
+.pic-area .col-1-3 a img:hover {
+    transform: scale(1.4);
+}
+/*******************************************portfolio-area complete***************************************/
+/*******************************************heart-image-area start***************************************/
+
+.heart-image .back {
+    background-image: url(image/heart-bg.png);
+    background-repeat: no-repeat;
+    background-position:  0 0;
+    background-size: cover;
+    width: 92.5%;
+    margin-top: -7px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.back .col-1-1 {
+	float: left;
+    margin-left: 30px;
+    margin-right: 165px;
+}
+.back .col-1-2 {
+    float: left;
+    overflow: hidden;
+    margin-right: 165px;
+}
+.back .col-1-3 {
+    overflow: hidden;
+}
+.back {
+    color: #FFFFFF;
+}
+.back  a img {
+    margin-top: 25px;
+    width: 35px;
+    transition: 1s;
+}
+.back h3 {
+    margin: 0px;
+    font-size: 21px;
+}
+.back h6 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.back  a img:hover {
+    transform: scale(1.6);
+}
+/****************************************heart-image-area complete************************************/
+/******************************************heart-image-area start*************************************/
+
+.with-me {
+    margin-top: 140px;
+}
+.logo-m {
+    text-align: center;
+}
+.logo-m a img {
+    width: 5%;
+}
+.logo-m h2 {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 0%;
+    letter-spacing: 0.3px;
+}
+.logo-m p {
+    color: rgb(139, 142, 160);
+    letter-spacing: 0.3px;
+    font-size: 14px;
+}
+/****************************************heart-image-area complete************************************/
+/********************************************font-area start******************************************/
+.font-area {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.font-area ul {
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+.font-area ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.font-area ul li a {
+    background: rgb(139, 142, 160);
+    padding: 5px 3px 0px 3px;
+    display: block;
+    border-radius: 50%;
+    margin-left: 0px;
+    transition: 1s;
+}
+.font-area ul li a img {
+    width: 70%;
+    text-align: center;
+}
+.font-area ul li a:hover {
+    transform: scale(1.6);
+}
+/********************************************font-area complete******************************************/
+.zerr {
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+}
+.zerr p {
+    color: rgb(111, 114, 136);
+}
+.zerr b {
+    color: #FFFFFF;
+}
+/*******************************************finished-area*********************************************/
+
+
+/*******************************************responsive-area*********************************************/
+
